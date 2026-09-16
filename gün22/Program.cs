@@ -10,7 +10,7 @@ namespace gün22
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Branch Practice");
+            Console.WriteLine("feature Practice");
 
             Console.ReadLine();
         }
