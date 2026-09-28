@@ -1,18 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System;
 
-namespace gün22
+namespace Gun22
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Branch Practice");
-
-            Console.ReadLine();
+            int[] dailyOrders = { 2, 4, 3 };
+            int total = 0;
+            foreach (int count in dailyOrders) total += count;
+            Console.WriteLine($"Üç günlük sipariş toplamı: {total}");
         }
     }
 }
